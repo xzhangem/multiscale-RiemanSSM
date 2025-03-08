@@ -5,5 +5,7 @@ Motivation: The project is motivated by application the theory of Sobolev shape 
 The workflow of the proposed work is summarzied in the figure below:
 ![image](https://github.com/xzhangem/multiscale-RiemanSSM/blob/main/Figures/diagram_tpca.png)
 For the part **A** of multiscale T-PCA training: 
+
 `python mean_tpca.py --data_file <your dataset filename> --template_save <mean shape save name> --resolution <scale_num> --components_num <T-PCA mode num> --pca_save_name <T-PCA save name (in npy format)>`
 
+Affine alignment as preprocessing for raw dataset is suggested to get rid of the impact of basic transformation including transition, rotation and scaling for SSM, and you can active `pre_align` and specify the pre-align save file via `--prealign_file`. 
