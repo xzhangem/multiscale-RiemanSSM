@@ -4,5 +4,5 @@ Motivation: The project is motivated by application the theory of Sobolev shape 
 
 The workflow of the proposed work is summarzied in the figure below:
 ![image](https://github.com/xzhangem/multiscale-RiemanSSM/blob/main/Figures/diagram_tpca.png)
-For the part 'RGB(0,255,0)A' of multiscale T-PCA training: 
+For the part 'rgb(0,255,0)A' of multiscale T-PCA training: 
 
