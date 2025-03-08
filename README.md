@@ -8,7 +8,7 @@ For the part **A** of multiscale T-PCA training:
 
 `python mean_tpca.py --data_file <your dataset filename> --template_save <mean shape save name> --resolution <scale_num> --components_num <T-PCA mode num> --pca_save_name <T-PCA save name (in npy format)>`
 
-***NOTICE***: Affine alignment as preprocessing for raw dataset is suggested to get rid of the impact of basic transformation including transition, rotation and scaling for SSM, and you can active `pre_align` and specify the pre-align save file via `--prealign_file`. 
+***NOTICE***: Affine alignment using efficient method like ICP or CPD as preprocessing for raw dataset is suggested to get rid of the impact of basic transformation including transition, rotation and scaling for SSM, and you can active `pre_align` and specify the pre-align save file via `--prealign_file`. 
 
 For the part **B** of the explicit latent code learning of shape, we use the pancreas T-PCA eigenvalues as example:
 
