@@ -12,3 +12,4 @@ For the part **A** of multiscale T-PCA training:
 
 For the part **B** of the explicit latent code learning of shape, we use the pancreas T-PCA eigenvalues as example:
 
+`python ms_latent_code.py --TPCA_eigvec_prefix ./TPCA_evec/pancreas_tpca/pancreas_evec_1 --resolution 3 --input <input mesh file>`
