@@ -87,7 +87,7 @@ if __name__ == "__main__":
     V = np.array(chemin_exp[-1].cpu().numpy()) ### Reconstructed vertices
     
     if args.save_result == True:
-        save_mesh = trimesh.Trimesh(V, template_f)
+        save_mesh = trimesh.Trimesh(V, F_output)
         save_mesh.export(args.recon_dir)
         np.save(args.lc_dir, X)
 
