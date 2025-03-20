@@ -17,8 +17,7 @@ import argparse
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='multiscale training of shape latent codes')
-    parser.add_argument('--mean_file', type=str, default='./pancreas_001.ply',
-            help='file name of mean mesh')
+    parser.add_argument('--mean_file', type=str, help='file name of mean mesh')
     parser.add_argument('--TPCA_eigvec_prefix', type=str, default='pancreas_evector_272',
             help='prefix of TPCA eigenvector group')
     parser.add_argument('--resolution', type=int, default=3,
