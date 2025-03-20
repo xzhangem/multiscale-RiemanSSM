@@ -14,6 +14,6 @@ For the part **B** of the explicit latent code learning of shape, we use the tra
 
 `python ms_latent_code.py --TPCA_eigvec_prefix ./TPCA_evec/pancreas_tpca/pancreas_evec_1 --resolution 3 --input <input mesh file> --recon_dir <reconstructed mesh savename> --lc_dir <latent code savename (in .npy format)>`
 
-For the part **C** of interpolation and and explolation with the latent codes, please refer to *basis_interpolate(expolate).py* file. 
+For the part **C** of interpolation and and explolation with the latent codes, please refer to *basis_interpolate(expolate).py* file. For the experiments of using fumer latent codes and SVM to classsify OAI, please refer to *oai_svm.py*. 
 
 For performance testing, *evaluate_distance.py* file measures the Chamfer distance, earth moving distance and surface-to-surface distance. *use_scale* parameter can be set True (False as default) to get the Chamfer distance as Mesh2SSM. 
