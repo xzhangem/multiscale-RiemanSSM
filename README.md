@@ -16,4 +16,4 @@ For the part **B** of the explicit latent code learning of shape, we use the tra
 
 For the part **C** of interpolation and and explolation with the latent codes, please refer to *basis_interpolate(expolate).py* file. 
 
-For performance testing, *evaluate_distance.py* file measures the Chamfer distance, earth moving distance and surface-to-surface distance. *use_scale* parameter can be set True (False as default) to get the Chamfer distance as Mesh2SSM 
+For performance testing, *evaluate_distance.py* file measures the Chamfer distance, earth moving distance and surface-to-surface distance. *use_scale* parameter can be set True (False as default) to get the Chamfer distance as Mesh2SSM. 
