@@ -13,3 +13,7 @@ For the part **A** of multiscale T-PCA training:
 For the part **B** of the explicit latent code learning of shape, we use the trained pancreas T-PCA eigenvalues stored in TPCA-evec file as example:
 
 `python ms_latent_code.py --TPCA_eigvec_prefix ./TPCA_evec/pancreas_tpca/pancreas_evec_1 --resolution 3 --input <input mesh file> --recon_dir <reconstructed mesh savename> --lc_dir <latent code savename (in .npy format)>`
+
+For the part **C** of interpolation and and explolation with the latent codes, please refer to basis_interpolate(expolate).py file. 
+
+
