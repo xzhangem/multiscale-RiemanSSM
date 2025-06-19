@@ -15,7 +15,7 @@ For the part **A** of multiscale T-PCA training:
 
 `python mean_tpca.py --data_file <your dataset filename> --template_save <mean shape save name> --resolution <scale_num> --components_num <T-PCA mode num> --pca_save_name <T-PCA save name (in .npy format)>`
 
-***NOTICE***: Pre-alignment using efficient method like ICP or CPD as preprocessing for raw dataset is suggested to get rid of the impact of basic transformation including transition, rotation and scaling for SSM, and you can active `pre_align` and specify the pre-align save file via `--prealign_file`. 
+***Special Notice***: Pre-alignment using efficient method like ICP or CPD as preprocessing for raw dataset is suggested to get rid of the impact of basic transformation including transition, rotation and scaling for SSM, and you can active `pre_align` and specify the pre-align save file via `--prealign_file`. 
 
 For the part **B** of the explicit latent code learning of shape, we use the trained pancreas T-PCA eigenvalues stored in TPCA-evec file as example:
 
@@ -23,4 +23,4 @@ For the part **B** of the explicit latent code learning of shape, we use the tra
 
 For the part **C** of interpolation and and explolation with the latent codes, please refer to *basis_interpolate(expolate).py* file. For the experiments of using fumer latent codes and SVM to classsify OAI, please refer to *oai_svm.py*. 
 
-For performance testing, *evaluate_distance.py* file measures the Chamfer distance, earth moving distance and surface-to-surface distance. *use_scale* parameter can be set True (False as default) to get the Chamfer distance as Mesh2SSM. 
+***Special Notice***: For performance testing, *evaluate_distance.py* file measures the Chamfer distance, earth moving distance and surface-to-surface distance. *use_scale* parameter can be set True (False as default) to get the Chamfer distance as Mesh2SSM. 
