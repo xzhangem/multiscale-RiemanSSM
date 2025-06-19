@@ -7,7 +7,7 @@ We highly recommend using Anaconda enviornment. The basic packages include PyTor
 
 `conda env create -f pytorch3d.yaml`
 
-### Description
+### Descriptions
 
 The workflow of the proposed work is summarzied in the figure below:
 ![image](https://github.com/xzhangem/multiscale-RiemanSSM/blob/main/Figures/diagram_tpca.png)
