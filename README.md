@@ -2,12 +2,12 @@
 
 Motivation: The project is motivated by application the theory of Sobolev shape metric (IJCV 2023, https://github.com/emmanuel-hartman/H2_SurfaceMatch) and its T-PCA version Bera-esa (IJCV 2024, https://github.com/emmanuel-hartman/BaRe-ESA) to medical shape data. However, we find that directly usage of this fancy theory to some high-deformed dataset where each sample may vary a lot from the others, such as pancreas dataset, will not obtain satisfying results. Therefore, we advance the original Bera-esa with multiscale training stragety, and its performance improves and can be tested better than sevaral existing results on anotomical shapes. 
 
-**Dependencies**
+##Dependencies
 We highly recommend using Anaconda enviornment. The basic packages include PyTorch, PyKeops and PyTorch3d, other related tools are included in the pytorch3d.yaml file. You can import the environments via yaml file as follows:
 
 `conda env create -f pytorch3d.yaml`
 
-**Description**
+##Description
 
 The workflow of the proposed work is summarzied in the figure below:
 ![image](https://github.com/xzhangem/multiscale-RiemanSSM/blob/main/Figures/diagram_tpca.png)
